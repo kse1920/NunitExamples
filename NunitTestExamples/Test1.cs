@@ -34,6 +34,12 @@ namespace NunitTestExamples
         {
             Assert.GreaterOrEqual(x + y, 3, "Hata Alındı"); 
         }
+        
+        [Test]
+        public void TestMethod4()
+        {
+            Assert.AreEqual(3 + 2, 4, "Hata Alındı");
+        }
 
         [TearDown]
         public void TearDown()
