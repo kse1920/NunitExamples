@@ -16,7 +16,7 @@ namespace NunitTestExamples
         [Test]
         public void TestMethod1()
         {
-            Assert.AreEqual(3 + 2, 5, "Hata Alındı");
+            Assert.AreEqual(3 + 2, 4, "Hata Alındı");
         }
 
          
